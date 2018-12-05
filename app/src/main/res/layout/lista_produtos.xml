@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvViewTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bairro"
+        />
+
+    <TextView
+        android:id="@+id/tvViewMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua"
+        />
+
+    <TextView
+        android:id="@+id/tvViewAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero"
+        />
+
+    <TextView
+        android:id="@+id/tvViewAcompanhamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complemento"
+        />
+
+</LinearLayout>
